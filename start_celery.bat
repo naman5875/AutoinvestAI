@@ -11,8 +11,8 @@ cd /d "D:\autoinvest_project\autoinvest_backend"
 call .venv\Scripts\activate
 
 :: 3. Set your Gemini API keys automatically (Replace the placeholder below)
-set GEMINI_API_KEY=AQ.Ab8RN6JuDq9CkjMlcyjRIscb54XwAZHhMmnU5eBeOTudtt61-g
-set GOOGLE_API_KEY=AQ.Ab8RN6JuDq9CkjMlcyjRIscb54XwAZHhMmnU5eBeOTudtt61-g
+set GEMINI_API_KEY=" "
+set GOOGLE_API_KEY=" "
 
 :: 4. Start Celery with the Windows solo pool automatically
 celery -A autoinvest_backend worker --loglevel=info -P solo
